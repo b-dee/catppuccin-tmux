@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ifconfig en0 | awk '/inet / { printf("%s", $2); }'
+ifconfig en0 | awk '{ printf("%s", $2); }'
