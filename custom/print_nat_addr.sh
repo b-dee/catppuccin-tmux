@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo "$(whoami) is here"
+echo "is here"
