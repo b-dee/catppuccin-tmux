@@ -286,7 +286,6 @@ main() {
   # panes
   set pane-border-style "fg=${thm_blue}"
   set pane-active-border-style "fg=${thm_blue}"
-  set pane-border-status "top"
   set pane-border-format "#{?pane_active,#[reverse], }#{pane_index}#{?pane_active,#[default], }"
 
   # windows
